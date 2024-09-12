@@ -41,7 +41,7 @@ function trocarStatusBotao() {
 }
 
 function reiniciar() {
-    document.getElementById('nomes').value = '';
+    document.getElementById('de').value = '';
     document.getElementById('resultado').innerHTML = '<label class="texto__paragrafo">Nomes sorteados:  nenhum até agora</label>';
     sorteioRealizado = false;
     trocarStatusBotao();
