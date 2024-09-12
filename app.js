@@ -10,10 +10,15 @@ function sortearNomes() {
         return;
     }
 
-    let quantidade = parseInt(document.getElementById('quantidade').value, 10);
+    let quantidade = parseInt(document.getElementById('quantidade').value);
 
     if (isNaN(quantidade) || quantidade <= 0) {
-        alert('Informe um valor válido para a quantidade.');
+        alert('A quantidade deve ser maior que 0.');
+        return;
+    }
+
+    if (quantidade > listaNomes.length) {
+        alert('A quantidade não pode ser maior que o número de nomes informados.');
         return;
     }
 
