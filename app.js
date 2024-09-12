@@ -9,10 +9,21 @@ function sortearNomes() {
         return;
     }
 
-    let nomeSorteado = listaNomes[Math.floor(Math.random() * listaNomes.length)];
+    let quantidade = parseInt(document.getElementById('quantidade').value, 10);
+
+    if (isNaN(quantidade) || quantidade <= 0) {
+        alert('Informe um valor válido para a quantidade.');
+        return;
+    }
+
+    let nomesSorteados = [];
+    for (let i = 0; i < quantidade; i++) {
+        let indiceSorteado = Math.floor(Math.random() * listaNomes.length);
+        nomesSorteados.push(listaNomes[indiceSorteado]);
+    }
 
     let textoResultado = document.getElementById('resultado');
-    textoResultado.innerHTML = `<label class="texto__paragrafo">Nome sorteado: ${nomeSorteado}.</label>`;
+    textoResultado.innerHTML = `<label class="texto__paragrafo">Nomes sorteados: ${nomesSorteados.join(', ')}.</label>`;
 
     sorteioRealizado = true;
     trocarStatusBotao();
@@ -30,8 +41,8 @@ function trocarStatusBotao() {
 }
 
 function reiniciar() {
-    document.getElementById('de').value = '';
-    document.getElementById('resultado').innerHTML = '<label class="texto__paragrafo">Nomes sorteados: nenhum até agora</label>';
+    document.getElementById('nomes').value = '';
+    document.getElementById('resultado').innerHTML = '<label class="texto__paragrafo">Nomes sorteados:  nenhum até agora</label>';
     sorteioRealizado = false;
     trocarStatusBotao();
 }
