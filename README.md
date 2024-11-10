@@ -1,10 +1,10 @@
 # Sorteador de nomes :crystal_ball:
 
-Este é um projeto simples em JavaScript para realizar sorteios de nomes; foi criado como uma continuação/melhoria do projeto [Jogo do Numero Secreto](https://github.com/ton-ayr/jogo-do-numero-secreto) realizado pelo curso de logica de programação na [Alura](https://cursos.alura.com.br/).
+Este é um projeto simples em JavaScript para realizar sorteios de nomes; foi criado como uma continuação/melhoria do projeto [Jogo do Numero Secreto](https://github.com/ton-ayr/jogo-do-numero-secreto).
 
-Neste projeto, o usuário informa uma lista de nomes e uma quantidade desejada para sorteio, e o programa retorna os nomes sorteados.
+Neste projeto o usuário informa uma lista de nomes e uma quantidade desejada para sorteio, onde o código vai realizar uma verificação se os valores de entrada são válidos e realizar o sorteio com os nomes selecionados dentro da quantidade informada.
 
-Acesse o Sorteador de nomes [aqui](https://sorteador-nine-sandy.vercel.app/)
+Acesse o Sorteador de nomes [aqui](https://sorteador-de-numeros-eta-two.vercel.app/)
 
 ## Funcionalidades
 
@@ -75,9 +75,16 @@ Este script depende da presença de elementos HTML específicos, como:
 <div id="resultado"></div>
 ```
 
+## Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
 ## Melhorias Futuras
 
-- Alterar o front para um proprio, pois mantive a estrutura do projeto base [Jogo do Numero Secreto](https://github.com/ton-ayr/jogo-do-numero-secreto)
-- Permitir o sorteio com critérios adicionais.
+- Alterar o front para um próprio, pois mantive a estrutura do projeto base [Jogo do Numero Secreto](https://github.com/ton-ayr/jogo-do-numero-secreto);
+- Permitir o sorteio com critérios adicionais;
+- Adicionar opção de timer no sorteio
 
 
