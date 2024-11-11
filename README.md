@@ -14,10 +14,11 @@ Acesse o Sorteador de nomes [aqui](https://sorteador-de-numeros-eta-two.vercel.a
 
 ## Como Utilizar
 
-1. Defina a `Quantidade` de nomes a serem sorteados.
-2. Informe os nomes separados por vírgula no campo `Nomes`.
-3. Clique no botão `Sortear` para exibir os nomes sorteados.
-4. Para realizar um novo sorteio, clique em `Reiniciar` e repita o processo.
+1. Acesse o [Sorteador](https://sorteador-de-numeros-eta-two.vercel.app/);
+2. Defina a `Quantidade` de nomes a serem sorteados;
+3. Informe os nomes separados por vírgula no campo `Nomes`;
+4. Clique no botão `Sortear` para exibir os nomes sorteados;
+5. Para realizar um novo sorteio, clique em `Reiniciar` e repita o processo.
 
 ## Pré-requisitos
 
@@ -86,5 +87,3 @@ Este script depende da presença de elementos HTML específicos, como:
 - Alterar o front para um próprio, pois mantive a estrutura do projeto base [Jogo do Numero Secreto](https://github.com/ton-ayr/jogo-do-numero-secreto);
 - Permitir o sorteio com critérios adicionais;
 - Adicionar opção de timer no sorteio
-
-
